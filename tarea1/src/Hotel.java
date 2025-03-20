@@ -1,6 +1,8 @@
 class Hotel {
-    public void hacerReserva(Cliente cliente) {
-        System.out.println("Reserva realizada para" + cliente.getNombre());
+    String name;
+
+    public Hotel(String name) {
+        this.name = name;
     }
 
     public void hacerPago(String tarjetaCredito) {
