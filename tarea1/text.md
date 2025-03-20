@@ -11,4 +11,4 @@ en el mismo metodo para hacer la reserva.
 
 El problema de acoplamiento surge a que la clase **Hotel** estaba usando los atributos
 directos de la clase **Cliente**.
-## Ejercicio 2
+
